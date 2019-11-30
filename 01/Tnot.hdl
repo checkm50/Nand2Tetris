@@ -1,0 +1,11 @@
+/*
+Not gate: out = invert of a
+*/
+
+CHIP Tnot {
+    IN a;
+    OUT out;
+
+    PARTS:
+    Nand(a=a, b=true, out=out);
+}
