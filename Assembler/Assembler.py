@@ -1,5 +1,5 @@
+# need to replace the 'index' code with 'find' so that I don't have to write a lot of try/except
 from termcolor import colored
-#print(colored('Hello, World!', 'green'))
 outfileWOcmntandblank = open('outfileWOcmntandblank.out','w')
 outfileWOlabel = open('outfileWOlabel.out','w')
 outfileWOsymbol = open('outfileWOsymbol.hack','w')
